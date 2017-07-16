@@ -1,4 +1,22 @@
-* {
-	margin: 0;
-	padding: 0;
+.main {
+	position: absolute;
+	top: 35.5%;
+	width: 100%;
+}
+
+img.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+#search-field {
+	display: block;
+	margin: 20px auto 0 auto;
+	width: 525px;
+	height: 35px;
+	background-color: white;
+	background-image: url(images/search-microphone.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 17px 22px;
 }
