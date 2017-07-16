@@ -1,6 +1,28 @@
+.nav {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding-top: 12px;
+	text-align: right;
+	font-size: 13px;
+	}
+
+li {
+	display: inline-block;
+	margin: 9px;
+}
+
+a {
+	color: rgba(0, 0, 0, 0.85);
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	position: relative;
+	bottom: 4px;
+}
+
 .main {
 	position: absolute;
-	top: 35.5%;
+	top: 21%;
 	width: 100%;
 }
 
@@ -17,8 +39,10 @@ img.logo {
 	background-color: white;
 	background-image: url(images/search-microphone.png);
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: 96%;
 	background-size: 17px 22px;
+	border: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 2px solid rgba(0, 0, 0, .2);
 }
 
 button {
@@ -33,4 +57,29 @@ button {
 .buttons {
 	text-align: center;
 	margin-top: 25px;
+}
+
+.footer-div {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	font-size: 12px;
+	padding: 7px 15px 15px 20px;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.l-footer, .r-footer {
+	display: inline-block;
+}
+
+.l-footer {
+	float: left;
+}
+
+.r-footer {
+	float: right;
+}
+
+.footer {
+	color: rgba(0, 0, 0, 0.7);
 }
